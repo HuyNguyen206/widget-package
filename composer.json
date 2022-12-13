@@ -1,0 +1,21 @@
+{
+    "name": "huy/widget-package",
+    "description": "The package to create custom component",
+    "autoload": {
+        "psr-4": {
+            "Huy\\WidgetPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huy",
+            "email": "nguyenlehuyuit@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "providers": [
+            "huy\\widget-package\\Provider\\ServiceProvider"
+        ]
+    }
+}

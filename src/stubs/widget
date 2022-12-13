@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Http\Widgets;
+
+class {{WidgetName}} extends Widget
+{
+    public function view()
+    {
+        return view("widgets.{{ViewName}}");
+    }
+}

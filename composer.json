@@ -14,8 +14,10 @@
     ],
     "require": {},
     "extra": {
-        "providers": [
-            "huynguyen206\\widget-package\\Provider\\ServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "huynguyen206\\widget-package\\Provider\\ServiceProvider"
+            ]
+        }
     }
 }

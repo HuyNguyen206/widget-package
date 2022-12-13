@@ -1,6 +1,6 @@
 <?php
 
-use Huy\WidgetPackage\Command\CreateWidget;
+use huynguyen206\WidgetPackage\Command\CreateWidget;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider as CoreServiceProvider;
 use Illuminate\Support\Str;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Huy\WidgetPackage\Widget;
+namespace huynguyen206\WidgetPackage\Widget;
 
 use Illuminate\Support\Str;
 use ReflectionClass;

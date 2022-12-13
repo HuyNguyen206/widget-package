@@ -1,5 +1,5 @@
 <?php
-namespace Huy\WidgetPackage\Command;
+namespace huynguyen206\WidgetPackage\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

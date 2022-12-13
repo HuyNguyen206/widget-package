@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Huy\\WidgetPackage\\' => array($baseDir . '/src'),
+    'huynguyen206\\WidgetPackage\\' => array($baseDir . '/src'),
 );

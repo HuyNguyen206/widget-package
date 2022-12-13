@@ -31,6 +31,16 @@ class CreateWidget extends Command
         $widgetName = $this->argument('name');
         $viewName = Str::kebab($widgetName);
         $content = File::get(base_path('stubs/widget'));
+        if (!is_dir(app_path('Http/Widgets/'))) {
+            // dir doesn't exist, make it
+            mkdir(app_path('Http/Widgets/') , 0777, true);
+        }
+
+        if (!is_dir(resource_path("views/widgets/"))) {
+            // dir doesn't exist, make it
+            mkdir(resource_path("views/widgets/") , 0777, true);
+        }
+
         File::put(app_path("Http/Widgets/$widgetName.php"),str_replace(['{{WidgetName}}', '{{ViewName}}'], [$widgetName, $viewName], $content));
         File::put(resource_path("views/widgets/$viewName.blade.php"), '<div> </div>');
         $this->info("$widgetName was created successfully!");

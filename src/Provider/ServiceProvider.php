@@ -1,4 +1,5 @@
 <?php
+namespace huynguyen206\WidgetPackage\Provider;
 
 use huynguyen206\WidgetPackage\Command\CreateWidget;
 use Illuminate\Support\Facades\Blade;

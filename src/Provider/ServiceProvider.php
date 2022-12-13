@@ -21,5 +21,9 @@ class ServiceProvider extends CoreServiceProvider
                 CreateWidget::class,
             ]);
         }
+
+        $this->publishes([
+            __DIR__.'/../stubs/widget' => base_path('stubs')
+        ], 'stub-view');
     }
 }

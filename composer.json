@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "huynguyen206\\widget-package\\Provider\\ServiceProvider"
+                "huynguyen206\\WidgetPackage\\Provider\\ServiceProvider"
             ]
         }
     }

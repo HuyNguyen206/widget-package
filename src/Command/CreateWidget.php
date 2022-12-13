@@ -30,7 +30,7 @@ class CreateWidget extends Command
     {
         $widgetName = $this->argument('name');
         $viewName = Str::kebab($widgetName);
-        $content = File::get(base_path('stubs/widget'));
+        $content = File::get(base_path('vendors/widget'));
         if (!is_dir(app_path('Http/Widgets/'))) {
             // dir doesn't exist, make it
             mkdir(app_path('Http/Widgets/') , 0777, true);

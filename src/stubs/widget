@@ -2,6 +2,8 @@
 
 namespace App\Http\Widgets;
 
+use huynguyen206\WidgetPackage\Widget\Widget;
+
 class {{WidgetName}} extends Widget
 {
     public function view()

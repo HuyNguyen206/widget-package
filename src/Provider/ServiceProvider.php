@@ -25,10 +25,6 @@ class ServiceProvider extends CoreServiceProvider
         $this->publishes([
             __DIR__ . '/../stubs/widget' => base_path('stubs/widget')
         ], 'widget-asset');
-
-        $this->publishes([
-            __DIR__ . '/../Widget/Widget.php' => base_path('App\Http\Widgets\Widget.php')
-        ], 'widget-asset');
     }
 
     /**

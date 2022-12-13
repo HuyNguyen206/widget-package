@@ -23,7 +23,7 @@ class ServiceProvider extends CoreServiceProvider
         }
 
         $this->publishes([
-            __DIR__.'/../stubs/widget' => base_path('stubs')
+            __DIR__.'/../stubs/widget' => base_path('stubs/widget')
         ], 'stub-view');
     }
 }
